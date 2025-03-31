@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CB8E8"
+    tools:context=".MainActivity2">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="246dp"
+        android:layout_height="184dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/img_2"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day: 2024-10-08"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morning Steps: 2000"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afternoon Steps: 3000"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Notes: Walked to classes and around campus"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day: 2024-10-09"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morning Steps: 150"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afternoon Steps 4000"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Notes: Strolled during study breaks"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day: 2024-10-13"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morning Steps: 1500"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Afternoon Steps: 5500"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <TextView
+        android:id="@+id/TxtDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Notes: Walked to campus"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <TextView
+        android:id="@+id/TxtAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Morning Steps: 3650 Steps"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <TextView
+        android:id="@+id/TxtAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Afternoon Steps: 12500 Steps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="584dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TxtAverage"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="161dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
